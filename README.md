@@ -1,20 +1,19 @@
 # Axios HTTP requests
 
-[![CircleCI](https://circleci.com/gh/mwaz/axios-http-requests.svg?style=svg)](https://circleci.com/gh/mwaz/axios-http-requests)
+[![CircleCI](https://circleci.com/gh/CIRCLECI-GWP/making-http-requests-axios.svg?style=svg)](https://circleci.com/gh/CIRCLECI-GWP/making-http-requests-axios)
 
 <p align="center"><img src="https://avatars3.githubusercontent.com/u/59034516"></p>
 
-A simple JS app to demonstrate how to make Axios HTTP requests both on Node.js and also on the browser. 
-
+A simple JS app to demonstrate how to make Axios HTTP requests both on Node.js and also on the browser.
 
 ## Clone the repository:
 
 run the following command on your terminal to clone the repository:
 
 ```bash
-git clone git@github.com:mwaz/axios-http-requests.git
+git clone https://github.com/CIRCLECI-GWP/making-http-requests-axios.git
 
-cd axios-http-requests
+cd making-http-requests-axios
 ```
 
 ## install the dependencies
@@ -30,12 +29,13 @@ npm install
 ```bash
 npm test
 ```
+
 ## Details
 
 This repo is built following a tutorial published on CircleCI blog under the CircleCI Guest Writer Program.
 
--   Blog post: [Making HTTP requests with Axios][blog]
--   Author's GitHub profile: [Waweru Mwaura][author]
+- Blog post: [Making HTTP requests with Axios][blog]
+- Author's GitHub profile: [Waweru Mwaura][author]
 
 ### About CircleCI Guest Writer Program
 
