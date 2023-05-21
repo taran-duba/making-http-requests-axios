@@ -1,32 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
-      integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn"
-      crossorigin="anonymous"
-    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous" />
     <link rel="stylesheet" href="./index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
     <title>Making HTTP requests with axios</title>
-  </head>
-  <body>
+</head>
+
+<body>
     <div class="container">
-      <div class="title">
-        <h1>Making HTTP requests with Axios</h1>
-      </div>
-      <div class="buttons">
-        <button id="get">GET</button>
-        <button id="post">POST</button>
-        <button id="concurrent">Concurrent</button>
-      </div>
-      <div id="responseDisplay"></div>
+        <div class="title">
+            <h1>Making HTTP requests with Axios</h1>
+        </div>
+        <div class="buttons">
+            <button id="get">GET</button>
+            <button id="post">POST</button>
+            <button id="concurrent">Concurrent</button>
+        </div>
+        <div id="responseDisplay"></div>
     </div>
 
     <script src="./users.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
-  </body>
+</body>
+
 </html>
